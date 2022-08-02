@@ -21,7 +21,7 @@ const HomeHeader = ({ onSearch }) => {
         <Image
           source={assets.logo}
           resizeMode="contain"
-          style={{ width: 90, height: 25 }}
+          style={{ width: 90, height: 90 }}
         />
 
         <View style={{ width: 45, height: 45 }}>
@@ -52,7 +52,7 @@ const HomeHeader = ({ onSearch }) => {
             color: COLORS.white,
           }}
         >
-          Hello Victoria 👋
+          Hello User 👋
         </Text>
 
         <Text
@@ -63,7 +63,7 @@ const HomeHeader = ({ onSearch }) => {
             marginTop: SIZES.base / 2,
           }}
         >
-          Let’s find masterpiece Art
+          Let’s find NFT's
         </Text>
       </View>
 
